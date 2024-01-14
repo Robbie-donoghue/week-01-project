@@ -7,6 +7,12 @@
 header
 {
     position: fixed;
+    z-index: 2;
+    color: white;
+    display: flex;
+    padding: 2.5rem, 3rem;
+    gap: 3rem;
+
 }
 .image-mats
 {
@@ -20,6 +26,14 @@ nav
     gap:2.3rem;
     text-transform: uppercase;
     align-items: center;
+    color: white;
+}
+nav a 
+{
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 700;
+    color: white;
 }
 
 html, body, h1, h2
@@ -35,7 +49,6 @@ html, body, h1, h2
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-size:cover;
 
 }
 
@@ -85,3 +98,21 @@ section
     text-decoration: none;
 }
 
+
+.image-striking
+{
+    background-image: url(https://images.ctfassets.net/j4p65rou1yfw/4Pva6w46I8SRSDrOgtOMrF/a754139ac6589ce0f5b0897aa04323d9/ALTA_Training_-Chippendale_GP0785-COPY.webp);
+}
+
+.image-jits
+{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f8a56ba4e842e4e3ee85741/9fec8d22-92fe-4244-b80c-7e0274c84686/no-gi-brazilian-jiu-jitsu-classes-brazilian-jiu-jitsu-in-auburn.jpg) ;
+}
+
+footer
+{
+    background: black;
+    text-align: center;
+    color: grey;
+    padding: 40px;
+}
